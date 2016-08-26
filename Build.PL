@@ -1,9 +1,10 @@
 use strict;
 use warnings;
 
-use Alien::Base::ModuleBuild '0.025';
+use lib 'inc';
+use My::ModuleBuild;
 
-my $builder = Alien::Base::ModuleBuild->new (
+my $builder = My::ModuleBuild->new (
     module_name => 'Alien::CImg',
     license => 'mit',
     configure_requires => {
