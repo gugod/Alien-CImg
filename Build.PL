@@ -11,6 +11,7 @@ my $builder = My::ModuleBuild->new (
         'Archive::Zip' => '1.59',
         'Alien::Base' => '0.025',
         'Module::Build' => '0.38',
+        'Alien::Base::ModuleBuild' => '0.023',
         'Test::More' => 0,
     },
     requires => {
